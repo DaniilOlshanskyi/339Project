@@ -1,11 +1,11 @@
 # SmartSync
-Don't live harder, live smarter. 
+SmartSync does NOT belong to DaniilOlshanskyi, it was used as a microservice example in this project. Origin of SmartSync was taken by 'git clone https://github.com/jackcmeyer/SmartSync.git' 
 
 ## To setup the project locally
 
 ### To Run SmartSync: 
 
-1. Clone this repository using `git clone https://github.com/jackcmeyer/SmartSync.git`
+1. Clone this repository using `git clone https://github.com/DaniilOlshanskyi/339Project.git`
 
 2. Go to the project directory.
 
