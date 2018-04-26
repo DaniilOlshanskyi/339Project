@@ -18,6 +18,8 @@ Don't live harder, live smarter.
 
 6. Make requests to `localhost:8000/*`
 
+### SmartGuard available from index.html file under SmartSync/SmartGuard
+
 ### To Setup for Development: 
 
 1. Clone this repository using `git clone https://github.com/jackcmeyer/SmartSync.git`

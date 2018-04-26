@@ -25,6 +25,8 @@ handler()
     kill -9 $PID9
     echo "kill -9 $PID10"
     kill -9 $PID10
+    echo "kill -9 $PID11"
+    kill -9 $PID11
 }
 
 # Colors
@@ -116,6 +118,13 @@ if [ "$SS_BUILD" = true ] ; then
     mvn package
     cd ../
 fi
+
+echo starting SmartGuard in Detector mode..
+cd SmartGuard
+python detector.py &
+PID11=$!
+echo $PID11
+sleep 3
 
 echo -e "${C_YEL}java -jar smartsync-config-service/target/smartsync-config-service-0.0.1-SNAPSHOT.jar${C_NRM}"
 java -Xms64m -Xmx64m -jar smartsync-config-service/target/smartsync-config-service-0.0.1-SNAPSHOT.jar &
